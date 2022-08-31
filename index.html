@@ -28,9 +28,8 @@
         <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam voluptate maxime nemo,
             culpa veniam dignissimos, dolorem in eveniet pariatur totam voluptates, ducimus vel rerum
             laboriosam ipsa. Hic enim ea recusandae!</p>
+        <input type="button" value="Hola" onclick="mostrarMensaje()">
     </div>
-
-    <input type="button" value="Hola" onclick="mostrarMensaje()">
 
     <div class="container">
         <table class="table table-striped">
@@ -85,6 +84,10 @@
         let x = 5, y = 4, z = 0;
         z = sumar(x, y);
         console.log("El resultado de la suma de " + x + " y " + y + " es: " + z);
+
+        function mostrarMensaje(){
+            alert("Bienvenido!");
+        }
 
         //Objetos
         const yo = {
